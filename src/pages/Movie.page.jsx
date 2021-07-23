@@ -1,9 +1,13 @@
 import React from 'react'
 
+
+//component
+import MovieHero from '../components/MovieHero/MovieHero.component';
+
 const Movie = () => {
     return (
         <>
-            Hi
+            <MovieHero />
         </>
     );
 };
